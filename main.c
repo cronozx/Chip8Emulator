@@ -780,6 +780,7 @@ bool proccessInput() {
                     default:
                         break;    
             }
+            break;
 
             case SDL_KEYUP:
                 switch (event.key.keysym.sym) {
@@ -834,6 +835,7 @@ bool proccessInput() {
                     default:
                         break;    
                 }
+                break;
         }
     }
 
